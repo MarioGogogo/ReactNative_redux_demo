@@ -8,7 +8,6 @@ import count from './countReducer';
 
 import theme from './themeReducer';
 
-
 const rootReducer = combineReducers({
     LoginReducer: login,
     countReducer: count,
